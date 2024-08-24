@@ -1,0 +1,30 @@
+
+
+Overview : Applicants selection with the best chance of success in their ventures
+
+Results: Using bulleted lists and images to support your answers, address the following questions:
+
+Data Preprocessing
+
+What variable(s) are the target(s) for your model?
+    The varibale used was if the organization is succesful
+
+What variable(s) are the features for your model?
+    The income amount and asking amount 
+
+What variable(s) should be removed from the input data because they are neither targets nor features?
+    EIN,	NAME,	APPLICATION_TYPE,	AFFILIATION	CLASSIFICATION	
+
+How many neurons, layers, and activation functions did you select for your neural network model, and why?
+    3 neurons and 3  layers becasue it provided the the minimum success prediction.
+
+Were you able to achieve the target model performance?
+    Yes
+What steps did you take in your attempts to increase model performance?
+    I changed CLASSIFICATION to IS_SUCCESSFUL
+
+Summary: Summarize the overall results of the deep learning model. Include a recommendation
+ for how a different model could solve this classification problem, and then explain your recommendation.
+    Utilizing the data set and relu model and prediction that was greater than the requirement.  
+    I also used different optimizers which provided prediction greater thna the requirement. 
+    I reccomend using any of the provided models because of their high accuracy.
